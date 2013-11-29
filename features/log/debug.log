@@ -1,0 +1,1412 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt" xml:lang="pt" xmlns="http://www.w3.org/1999/xhtml"><head><script type="text/javascript" async="" src="https://secure.footprint.net/dafiti/js/clicktale.js"></script>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Carrinho de Compras</title>
+    <meta content="" name="description" />    <meta content="noindex,follow" name="robots" />
+        
+<link type="image/x-icon" href="https://secure.footprint.net/dafiti/images/favicon.ico" rel="icon" />
+    
+<link type="image/x-icon" href="https://secure.footprint.net/dafiti/images/favicon.ico" rel="shortcut icon" />
+
+    <meta content="app-id=564924168" name="apple-itunes-app" />
+    <meta content="app-id=br.com.dafiti" name="google-play-app" />
+
+    <meta content="1CAFA4D16E91B33BB9A4C0D7315B052F" name="msvalidate.01" />
+
+    
+                
+
+<link media="all" href="https://secure.footprint.net/dafiti/css/dafiti/live/dafiti-min-ssl-primary.1385129864.css" type="text/css" rel="stylesheet" />
+            
+
+<link media="all" href="https://secure.footprint.net/dafiti/css/dafiti/live/dafiti-min-ssl-supplemental.1385129864.css" type="text/css" rel="stylesheet" />
+        
+    <iframe height="0" width="0" style="display: none; visibility: hidden;" src="//3057653.fls.doubleclick.net/activityi;src=3057653;type=cart;cat=dafit090;u4=calcados;u2=PU493SCM25ITU;u7=undefined;u3=masculino;u6=99.90;u1=T%C3%AAnis%20Puma%20Axis%202%20Branco;u15=Static.cart;u9=38;u8=Branco;u5=calcados-masculinos;u17=;ord=1;num=1302129844;%7Eoref=https%3A%2F%2Fsecure.dafiti.com.br%2Fcart%2F?"></iframe><script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" async="" src="https://vu.adschoom.com/trafic/retar.php?type=PANIER&amp;boutique=dafiti&amp;transaction_amount=099.90&amp;data=PU493SCM25ITU"></script><script type="text/javascript" async="" src="https://ssl.vizury.com/analyze/pixel.php?account_id=VIZVRM453"></script><script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-DVWD"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://stats.g.doubleclick.net/dc.js"></script><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>                    <script src="https://secure.footprint.net/dafiti/js/javascript.min.1385129864.js" type="text/javascript"></script>
+                    <script src="https://secure.footprint.net/dafiti/js/utils.min.1385129864.js" type="text/javascript"></script><style>.mboxDefault { visibility:hidden; }</style>
+                    <script src="https://secure.footprint.net/dafiti/js/jquery.cycle.all.js" type="text/javascript"></script>
+                    <script src="https://secure.footprint.net/dafiti/js/jquery.maskedinput.js" type="text/javascript"></script>
+        <script type="text/javascript">
+    var placeHolderImage = 'https://secure.footprint.net/dafiti/images/placeholder/placeholder.jpg';
+    var baseUrl = '';
+    var secureUrl = 'https://secure.dafiti.com.br';
+    var csrfToken = 'b70c0f0bafacab901961f077704c995334c1a053';
+</script>
+<script type="text/javascript" async="" src="https://dgy6rx5roq02d.cloudfront.net/triggit-analytics.min.js"></script><script type="text/javascript" charset="UTF-8" src="https://recs.richrelevance.com/rrserver/p13n_generated.js?a=b58946ba6c4fc057&amp;ts=1385676393145&amp;ssl=t&amp;pt=%7Ccart_page&amp;u=5aevmk6vvphpql08k3ti3fmg98vgj1fvk32qbvqau4ddul1o0o49ep7rrg14mmok59lqhfiomg03jamdp7gcpqb2rlletoubgpea6t0&amp;s=5aevmk6vvphpql08k3ti3fmg98vgj1fvk32qbvqau4ddul1o0o49ep7rrg14mmok59lqhfiomg03jamdp7gcpqb2rlletoubgpea6t0&amp;pte=t&amp;cts=https%3A%2F%2Fsecure.dafiti.com.br&amp;p=%7C1359274&amp;flv=11.2.202&amp;pref=http%3A%2F%2Fwww.dafiti.com.br%2FTenis-Puma-Axis-2-Branco-1359274.html&amp;l=1" async=""></script><script src="https://vu.adschoom.com/trafic/retar_js.php?type=PANIER&amp;boutique=dafiti&amp;categorie_id=&amp;produit_id=&amp;data=PU493SCM25ITU&amp;transaction_id=0&amp;transaction_amount=099.90&amp;valid=1&amp;refer=https%3A//secure.dafiti.com.br/cart/&amp;refer2=&amp;random=600917958" type="text/javascript" async="" defer="defer"></script></head>
+<body>
+
+
+<script type="text/cjs">
+$(document).ready(function(){
+var idsProduct = new Array();
+for(i=0;i&lt;$(".cart-product-line.column-product-image").length;i++)
+{
+var url = $(".cart-product-line .product-name a").eq(i).attr("href");
+var id = /[^.]+/.exec(url)[0].substr(url.lastIndexOf("-")).replace("-","");
+var amount = $(".cart-product-line-last .cart-price .price").eq(i).find("strong").text().replace("R$ ","").replace(",",".");
+var qty = $(".cart-qty-value .input-text option:selected").eq(i).val();
+idsProduct[i] = id+"|"+amount+"|"+qty;
+}
+
+$.cookie("cookie-rich-relevance-succes",idsProduct,{expires: 20, path:"/", domain: 'dafiti.com.br'});
+})
+</script>
+<!-- BEGIN GOOGLE ANALYTICS CODE -->
+<script type="text/javascript" sync="">
+//&lt;![CDATA[
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-20348534-2']);
+    _gaq.push(['_setDomainName', '.dafiti.com.br']);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_trackEvent', 'checkout', 'cart', 'value', 100]);
+                
+
+    // doubleclick checker -
+    window.onload = function () {
+
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+
+    setTimeout(function(){ if(typeof _gat === "undefined"){
+    (function(){ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })(); _gaq.push(['_trackEvent','GA Remarketing Tag','DC Script','Failed',0,true]);
+    gaCustomVar.save();
+ } }, 1500); }
+  
+gaCustomVar.save();
+//]]&gt;
+</script>
+<!-- END GOOGLE ANALYTICS CODE -->
+<!-- BEGIN UNIVERSAL ANALYTICS CODE -->
+<script type="text/cjs">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39842805-1', '.dafiti.com.br');
+  ga('send', 'pageview');
+
+</script>
+<!-- END UNIVERSAL ANALYTICS CODE -->
+<script type="text/javascript" sync="">
+wt = new Object();
+wt.product="PU493SCM25ITU";
+wt.productCost="99.9";
+wt.productStatus="add";
+wt.productQuantity="1";
+wt.productCategory=new Array();
+wt.productCategory={
+    1: "calcados-tenis",
+    3: "",
+    4: "Puma"
+};
+wt.customEcommerceParameter={
+1:"Puma",
+2:"Branco",
+3:"38",
+5:"",
+6:"",
+7:"",
+8:"",
+9:"NewCustomer",
+16:"",
+17:"",
+18:"",
+19:"",
+20:"",
+23:""
+};
+
+dataLayer = [{
+'pageName': 'Static.cart',
+'ET': 'cartpage',
+'ProdId': ["PU493SCM25ITU-58"],
+'Pcat': ["masculino,esporte,esporte-masculino,calcados,calcados-tenis,puma"], 
+'skuListComma': ["PU493SCM25ITU-58"],
+'skuList' : 'PU493SCM25ITU',
+'priceList' : '99.90',
+'qtyList' : '1',
+'categoryList' : 'calcados',
+'id_customer' : '',
+'subtotal' : '99.9',
+'cartValue' : '',
+'webtrekkCartData': wt,
+'nameList' : 'Tênis Puma Axis 2 Branco',
+'subcategoriesList' : 'calcados-masculinos',
+'genderList' : 'masculino',
+'birthdayCustomer' : '',
+'sizeList' : '38',
+'colorList' : 'Branco',
+'brandsList' : 'Puma',
+'voucherUsed' : '',
+'paymentMethod' : '',
+'regionCustomer' : '',
+'cityCustomer' : '',
+'genderCustomer' : '',
+'searchquery' : '',
+                'skuconfiglistcomma' : 'PU493SCM25ITU'.replace('|',',')
+
+
+}];
+</script>
+
+<!-- Google Tag Manager -->
+<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-DVWD"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<script type="text/cjs">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-DVWD');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript" sync="">
+$(document).ready(function(){
+if ($.cookie('TesteInfosEstoqueProductPage') == '1'){
+var numBoxes = $(".cart-price").length;
+for(var i=0;i&lt;numBoxes;i++){
+    if($(".cart-price").eq(i).text().search("enas 3 prod")&gt;0){
+        $(".cart-price").eq(i).find(".product-left").css("display","none");
+        $(".cart-price").eq(i).find("p").css("display","none");
+    };
+}
+}
+});
+</script>
+
+
+    <div id="bg-dafiti">
+    </div>
+    <div id="wrapper">
+                <div id="full-header">
+    <div class="center header-content">
+        <div id="header">
+    <div class="top_area">
+        <div class="navigation header-navigation">
+            <ul class="header_links clearfix alignright">
+                <li class="header-navigation-item">
+                    <a href="/faq/" title="Ajuda" rel="follow" class="sel-header-help">
+                        Ajuda                    </a>
+                </li>
+                <li class="header-navigation-item">
+                    <a onclick="window.open('http://chat.dafiti.com.br/dados.php', 'Atendimento', 'menubar=no,width=400,height=500,toolbar=no,resizable=no');_gaq.push(['_trackEvent', 'ChatClick', 'ChatClick', 'ChatClick', 0, true])" href="javascript:;" title="Chat" rel="follow" class="sel-header-help">
+                        Chat                    </a>
+                </li>
+                <li class="header-navigation-item">
+                    <a href="/prazo-de-entrega/" title="Prazo de Entrega" rel="follow">
+                        Prazo de Entrega                    </a>
+                </li>
+                <li class="header-navigation-item">
+                    <a href="https://secure.dafiti.com.br/customer/wishlist/" title="Favoritos" rel="follow" class="sel-header-wishlist">
+                        Favoritos                    </a>
+                    <script type="text/javascript">
+                        CookieHeader.writeWhishListCount();
+                    </script>
+                </li>
+                <script type="text/javascript">
+                    CookieHeader.writeLoggedCustomerLink(
+                        '&lt;li class="header-navigation-item tooltipbox-trigger-click navigation-login" data-type="account"&gt;    &lt;a class="sel-home-my-account navigation-login-link" rel="follow"       title="Minha Conta"       href="https://secure.dafiti.com.br/customer/account/index/"&gt;        Minha Conta    &lt;/a&gt;&lt;/li&gt;',
+                        '&lt;li class="header-navigation-item"&gt;    &lt;a class="sel-home-my-account" rel="follow"       title="Minha Conta"       href="https://secure.dafiti.com.br/customer/account/index/"&gt;        Minha Conta    &lt;/a&gt;&lt;/li&gt;'
+                    );
+                </script><li data-type="account" class="header-navigation-item tooltipbox-trigger-click navigation-login">    <a href="https://secure.dafiti.com.br/customer/account/index/" title="Minha Conta" rel="follow" class="sel-home-my-account navigation-login-link">        Minha Conta    </a></li>
+                <script type="text/javascript">
+                    CookieHeader.writeLoggedCustomerLink(
+                        '&lt;li class="header-navigation-item tooltipbox-trigger-click navigation-login" data-type="login"&gt;    &lt;a rel="follow" class="last navigation-login-link"       title="Entrar"       href="https://secure.dafiti.com.br/customer/account/login/"&gt;        Entrar    &lt;/a&gt;&lt;/li&gt;',
+                        '&lt;li class="header-navigation-item"&gt;&lt;a rel="follow" class="last" title="Sair" href="/customer/account/logout/"&gt;Sair&lt;/a&gt;&lt;/li&gt;'
+                    );
+                </script><li data-type="login" class="header-navigation-item tooltipbox-trigger-click navigation-login">    <a href="https://secure.dafiti.com.br/customer/account/login/" title="Entrar" class="last navigation-login-link" rel="follow">        Entrar    </a></li>
+                <li class="header-navigation-item">
+                    <a class="site-blindado i-siteblindado-tiny" href="https://selo.siteblindado.com.br/verificar?url=http://www.dafiti.com.br" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="logo header-logo header-column">
+            <a class="i-dafiti" href="/" title="Calçados e Moda Online na Dafiti!"></a>
+        </div>
+
+        <div class="header-column header-column-middle">
+            <script type="text/javascript">
+    $(function(){
+        $('.openGeneralModalTelesales').generalModal();
+        $('.openGeneralModalHotline').generalModal();
+    });
+</script>
+<div class="usps">
+    <ul class="usps-list">
+        <li class="item usps-item header-item shipping">
+            <div class="tooltipbox-trigger">
+                <div class="icon usps-icon usps-icon-free-shipping ih-usps-free-shipping">Grátis*</div>
+                <div class="textContainer usps-item-text">
+                    <span class="caption usps-caption">Frete Grátis</span>
+                    <span class="sub usps-sub">A partir de R$ 99,90</span>
+                </div>
+            </div>
+            <div class="tooltipbox">
+                <div class="tooltipbox-arrow i-tooltip-up-arrow"></div>
+                <div class="tooltipbox-content">
+                    Entrega grátis para todo o Brasil, para compras a partir de R$ 99,90, ou frete turbo para entregas super rápidas!                </div>
+            </div>
+        </li>
+        <li class="item usps-item header-item return">
+            <div class="tooltipbox-trigger">
+                <div class="icon usps-icon usps-icon-return ih-usps-return">30</div>
+                <div class="textContainer usps-item-text">
+                    <span class="caption usps-caption">DIAS PARA TROCA</span>
+                    <span class="sub usps-sub">POR CONTA DA DAFITI</span>
+                </div>
+            </div>
+            <div class="tooltipbox usps-return-tooltipbox">
+                <div class="tooltipbox-arrow i-tooltip-up-arrow"></div>
+                <div class="tooltipbox-content">
+                    Até 30 dias para a troca ou devolução, completamente grátis.                </div>
+            </div>
+        </li>
+        <li class="item usps-item header-item products">
+            <div class="tooltipbox-trigger">
+                <div class="icon usps-icon usps-icon-products ih-usps-products">+</div>
+                <div class="textContainer usps-item-text">
+                    <span class="caption usps-caption">75.000 +</span>
+                    <span class="sub usps-sub">PRODUTOS</span>
+                </div>
+            </div>
+            <div class="tooltipbox usps-products-tooltipbox">
+                <div class="tooltipbox-arrow i-tooltip-up-arrow"></div>
+                <div class="tooltipbox-content usps-products-tooltipbox-content">
+                    São mais de 75.000 produtos entre roupas, calçados e acessórios para você!                </div>
+            </div>
+        </li>
+        <li class="item usps-item header-item sac">
+            <div class="tooltipbox-trigger">
+                <div class="icon usps-icon usps-icon-sac ih-usps-sac"></div>
+                    <div class="textContainer usps-item-text-left">
+                        <a rel="518,357" href="/messagetelesales?type=telesales" class="openGeneralModalTelesales">
+                        <span class="caption usps-caption">4003-1360</span>
+                        <span class="sub usps-sub">Televendas</span>
+                        </a>
+                    </div>
+                    <div class="textContainer usps-item-text-right separatorHover">
+                        <a rel="518,377" href="/messagetelesales?type=hotline" class="openGeneralModalHotline">
+                        <span class="caption usps-caption">11 3053<span> 7500</span></span>
+                        <span class="sub usps-sub">Atendimento</span>
+                        </a>
+                    </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+            <div class="search">
+                <div id="subnav_search">
+    <form action="/catalog/" method="get" id="search_form">
+        <div class="search-contextual">
+            <div class="search-text">Todas as categorias </div>
+            <div class="search-arrow i-search-arrow"></div>
+            <select class="search-select" name="category">
+                <option value="">Todas as categorias </option>
+                                        <option value="5">Calçados Femininos</option>
+                                                <option value="4">Calçados Masculinos</option>
+                                                <option value="7">Calçados Infantis</option>
+                                                <option value="74">Roupas Femininas</option>
+                                                <option value="75">Roupas Masculinas</option>
+                                                <option value="257">Roupas Infantis</option>
+                                                <option value="361">Bolsas e Acessórios Femininos</option>
+                                                <option value="360">Bolsas e Acessórios Masculinos</option>
+                                                <option value="359">Bolsas e Acessórios Infantis</option>
+                                                <option value="380">Esporte Feminino</option>
+                                                <option value="379">Esporte Masculino</option>
+                                                <option value="378">Esporte Infantil</option>
+                                                <option value="1159">Beleza Infantil</option>
+                                                <option value="1158">Beleza Masculina</option>
+                                                <option value="1156">Beleza Feminina</option>
+                                                <option value="2097">Casa</option>
+                                                <option value="1928">Premium Feminino</option>
+                                                <option value="1929">Premium Masculino</option>
+                                                <option value="1930">Premium Infantil</option>
+                                    </select>
+        </div>
+        <div id="search-suggest-loading"></div>
+        <div style="display:none" id="search-default">Digite aqui o que procura</div>
+        <input type="text" class="sel-search-input" autocomplete="off" id="search-input" name="q" value="" style="width: 251px;" />
+        <input type="hidden" name="wtqs" value="1" />
+        <input type="submit" value="Busca" class="button btn-primary sel-search-button" id="search-button" />
+        <div style="display: none" id="search-autocomplete" class="search-autocomplete"></div>
+    </form>
+</div>
+<script type="text/javascript">
+    var catalogSugest = new dftApi.catalog.autoSugest().init({
+        search_text: 'Digite aqui o que procura',
+        base_url: ''
+    });
+</script>
+            </div>
+        </div>
+
+        <div class="header-column header-column-right">
+            
+<div class="cart header-cart tooltipbox-trigger">
+    <a class="header-cart-link" href="https://secure.dafiti.com.br/cart/" rel="follow" title="Carrinho">
+        <script type="text/javascript">
+            CookieHeader.writeCartTotal('Carrinho', 'vazio');
+        </script><span class="ico header-cart-icon i-header-cart icoFilled"></span><span class="textContainer header-cart-text"><span class="caption header-cart-caption i-cart-caption">Carrinho</span><span class="sub header-cart-sub">Total = R$ 99,90</span></span>
+    </a>
+</div>
+        </div>
+            </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.subnavigation-block:last-child').addClass('last');
+    });
+</script>
+        <div class="nav-tabs">
+    <ul>
+        <li class="nav-tabs-tab home btn-secondary btn-active active">
+            <a href="/">
+                <span class="home i-home"></span>
+            </a>
+        </li>
+                    <li class="nav-tabs-tab btn-secondary ">
+                <a href="/feminino/">Feminino</a>
+            </li>
+                    <li class="nav-tabs-tab btn-secondary ">
+                <a href="/masculino/">Masculino</a>
+            </li>
+                    <li class="nav-tabs-tab btn-secondary ">
+                <a href="/infantil/">Infantil</a>
+            </li>
+                <li class="nav-tabs-tab btn-secondary ">
+            <a class="nav-row-item sel-navigation-tips" href="/dicas-e-looks/?os=dicaselooks&amp;wt_cc4=re-home&amp;os=dicaselooks&amp;wt_cc4=re-home">
+                Dicas e Looks            </a>
+        </li>
+    </ul>
+</div>
+<div class="nav-row btn-nav-row">
+            <ul class="nav-main nav-main-script">
+            
+                    <li>
+                        <a class="nav-row-item sel-cat-calcados" href="/calcados/" id="cat_678">
+                            Calçados                            <b class="subnavigation-arrow i-tooltip-up-arrow nav-bar"></b>
+                        </a>
+                        <div class="subnavigation-pane subnavigation-full subnavigation-border subnavigation-calcados">
+    <div>
+        <ul class="subnavigation-block menu-dropdown-items">                                                                                                                                                           
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/calcados-femininos/">Femininos</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-femininos/ankle-boot"><span>Ankle Boots</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-femininos/botas"><span>Botas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-femininos/mocassim/"><span>Mocassins</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-femininos/peep-toe"><span>Peep Toes</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-femininos/rasteiras"><span>Rasteiras</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-femininos/sandalias"><span>Sandálias</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-femininos/sapatilhas"><span>Sapatilhas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-femininos/scarpins"><span>Scarpins</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-femininos/slippers"><span>Slippers</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-femininos/sneakers"><span>Sneakers</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-femininos/tenis-casual"><span>Tênis Casual</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-feminino/calcados/"><span>Calçados esportivos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-femininos/"><span>...todas as categorias</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/calcados-masculinos/">Masculinos</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-masculinos/botas/"><span>Botas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-masculinos/mocassim/"><span>Mocassins</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-masculinos/sapatenis/"><span>Sapatênis</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-masculinos/sapato-casual/"><span>Sapato Casual</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-masculinos/sapato-social/"><span>Sapato Social</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-masculinos/sandalias/"><span>Sandálias</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-masculinos/chinelos/"><span>Chinelos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-masculinos/tenis-casual/"><span>Tênis Casual</span></a></li>
+    <li class="menu-dropdown-item"> </li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/calcados/"><span>Calçados esportivos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-masculinos/"><span>...todas as categorias</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/calcados-infantis/?gender=menino">Para Meninos</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-infantis/baby/?gender=menino"><span>Baby (0 - 2 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-infantis/kids/?gender=menino"><span>Kids (2 - 9 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-infantis/teens/?gender=menino"><span>Teens (9 - 16 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-infantil/calcados/?gender=menino"><span>Calçados esportivos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-infantis/?gender=menino"><span>...todas as categorias</span></a></li>
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/calcados-infantis/?gender=menina">Para Meninas</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-infantis/baby/?gender=menina"><span>Baby (0 - 2 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-infantis/kids/?gender=menina"><span>Kids (2 - 9 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-infantis/teens/?gender=menina"><span>Teens (9 - 16 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-infantil/calcados/?gender=menina"><span>Calçados esportivos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-infantis/?gender=menina"><span>...todas as categorias</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items last">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/calcados-infantis/">Mais</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/calcados-infantis/"><span>NOVIDADES</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calcados-infantis/special-price"><span>PROMOÇÕES</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/vale-presente"><span>VALE PRESENTE</span></a></li>
+</ul>
+    </div>
+</div>                    </li>
+                
+                    <li>
+                        <a class="nav-row-item sel-cat-roupas" href="/roupas/" id="cat_73">
+                            Roupas                            <b class="subnavigation-arrow i-tooltip-up-arrow nav-bar"></b>
+                        </a>
+                        <div class="subnavigation-pane subnavigation-full subnavigation-border subnavigation-roupas">
+    <div>
+        <ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/roupas-femininas/">Femininas</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-femininas/blusas/"><span>Blusas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-femininas/camisas/"><span>Camisas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-femininas/casacos-e-jaquetas/"><span>Casacos e Jaquetas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-femininas/malhas-e-sueters/"><span>Malhas e Sueters</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-femininas/shorts/"><span>Shorts</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-femininas/saias/"><span>Saias</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-femininas/calcas-jeans/"><span>Calças Jeans</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-femininas/vestidos/"><span>Vestidos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-femininas/lingerie/"><span>Lingerie</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-femininas/moda-praia/"><span>Moda Praia</span></a></li>    
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-femininas/"><span>...todas as categorias</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/roupas-masculinas/">Masculinas</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-masculinas/camisetas/"><span>Camisetas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-masculinas/polos/"><span>Polos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-masculinas/camisas/"><span>Camisas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-masculinas/casacos-e-jaquetas/"><span>Casacos e Jaquetas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-masculinas/malhas-e-sueters/"><span>Malhas e Sueters</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-masculinas/bermudas/"><span>Bermudas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-masculinas/calcas-jeans/"><span>Calças Jeans</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-masculinas/calcas-casuais/"><span>Calças Casuais</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-masculinas/underwear/"><span>Underwear</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-masculinas/moda-praia/"><span>Moda Praia</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-masculinas/"><span>...todas as categorias</span></a></li>    
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/roupas-infantis/?gender=menino">Para Meninos</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-infantis/baby/?gender=menino"><span>Baby (0 - 2 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-infantis/kids/?gender=menino"><span>Kids (2 - 9 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-infantis/teens/?gender=menino"><span>Teen (9 - 16 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-infantis/?theme=Esportes&amp;gender=menino"><span>Roupas Esportivas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-infantis/?gender=menino"><span>...todas as categorias</span></a></li>
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/roupas-infantis/?gender=menina">Para Meninas</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-infantis/baby/?gender=menina"><span>Baby (0 - 2 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-infantis/kids/?gender=menina"><span>Kids (2 - 9 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-infantis/teens/?gender=menina"><span>Teen (9 - 16 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-infantis/?theme=Esportes&amp;gender=menina"><span>Roupas Esportivas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/roupas-infantis/?gender=menina"><span>...todas as categorias</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items last">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands">Mais</li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/new-products/roupas/"><span>NOVIDADES</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/roupas/special-price/"><span>PROMOÇÕES</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/vale-presente"><span>VALE PRESENTE</span></a></li>                                                                                
+</ul>
+    </div>
+</div>                    </li>
+                
+                    <li>
+                        <a class="nav-row-item sel-cat-bolsas-e-acessorios" href="/bolsas-e-acessorios/" id="cat_8">
+                            Bolsas e Acessórios                            <b class="subnavigation-arrow i-tooltip-up-arrow nav-bar"></b>
+                        </a>
+                        <div class="subnavigation-pane subnavigation-full subnavigation-border subnavigation-bolsas-e-acessorios">
+    <div>
+        <ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-femininos/">Femininos</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-femininos/bolsas/"><span>Bolsas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-femininos/bijuterias/"><span>Bijuterias</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-femininos/bones-e-chapeus/"><span>Bonés e Chapéus</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-femininos/carteiras/"><span>Carteiras</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-femininos/cintos/"><span>Cintos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-femininos/mochilas-e-malas/"><span>Mochilas e Malas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-femininos/necessaires/"><span>Necessaires</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-femininos/relogios/"><span>Relógios</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-femininos/oculos/"><span>Óculos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-feminino/acessorios/"><span>Acessórios esportivos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-femininos/"><span>...todas as categorias</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-masculinos/">Masculinos</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-masculinos/bones-e-chapeus/"><span>Bonés e Chapéus</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-masculinos/carteiras/"><span>Carteiras</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-masculinos/cintos/"><span>Cintos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-masculinos/mochilas-e-malas/"><span>Mochilas e Malas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-masculinos/necessaires/"><span>Necessaires</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-masculinos/pastas/"><span>Pastas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-masculinos/relogios/"><span>Relógios</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-masculinos/oculos/"><span>Óculos</span></a></li>
+    <li class="menu-dropdown-item"> </li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/acessorios/"><span>Acessórios esportivos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-masculinos/"><span>...todas as categorias</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-infantis/?gender=menino">Para Meninos</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-infantis/kids/?gender=menino"><span>Kids (2 - 9 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-infantis/teens/?gender=menino"><span>Teens (9 - 16 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-infantis/?gender=menina"><span>...todas as categorias</span></a></li>
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-infantis/?gender=menina">Para Meninas</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-infantis/baby/?gender=menina"><span>Baby (0 - 2 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-infantis/kids/?gender=menina"><span>Kids (2 - 9 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-infantis/teens/?gender=menina"><span>Teens (9 - 16 anos)</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-infantis/?gender=menino"><span>...todas as categorias</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items last">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-masculinos/">Mais</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/bolsas-e-acessorios-masculinos/"><span>NOVIDADES</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-masculinos/special-price/"><span>PROMOÇÕES</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/vale-presente"><span>VALE PRESENTE</span></a></li>                                                                                                                                           
+</ul>
+    </div>
+</div>                    </li>
+                
+                    <li>
+                        <a class="nav-row-item sel-cat-esporte" href="/esporte/" id="cat_6">
+                            Esporte                            <b class="subnavigation-arrow i-tooltip-up-arrow nav-bar"></b>
+                        </a>
+                        <div class="subnavigation-pane subnavigation-full subnavigation-border subnavigation-esporte">
+    <div>
+        <ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/esporte-masculino/">Esporte</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/?activity=Running"><span>Running</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/?activity=Casual"><span>Casual</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/?activity=Adventure"><span>Adventure</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/?activity=Skate"><span>Skate</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/?activity=Surf"><span>Surf</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/?activity=Futebol"><span>Futebol</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/?activity=Trainning"><span>Trainning</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/?activity=Tenis%20e%20Squash"><span>Tennis</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/?activity=Basquete"><span>Basquete</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/?activity=Natacao"><span>Natação</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/"><span>...todas as modalidades</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/marcas/esporte/?segment=masculino">Marcas</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/nike/"><span>Nike</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/converse/"><span>Converse</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/olympikus/"><span>Olympikus</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/puma/"><span>Puma</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/timberland/"><span>Timberland</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/coca-cola/"><span>Coca-Cola</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/asics/"><span>Asics</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/umbro/"><span>Umbro</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/reebok/"><span>Reebok</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/mizuno/"><span>Mizuno</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/marcas/esporte/?segment=masculino"><span>...todas as marcas</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/esporte-masculino/">Categorias</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/calcados-tenis/"><span>Tênis Masculinos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/calcados-chuteiras/"><span>Chuterias</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/roupas-clubes-brasileiros/"><span>Camisas de Time</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/camisetas-roupas-manga-curta/"><span>Camisetas Manga Curta</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/roupas-blusao-e-jaqueta/"><span>Blusão/Jaquetas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/roupas-polos/"><span>Camisetas Polo</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/roupas-bermudas-e-shorts/"><span>Bermudas e Shorts</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/roupas-agasalhos/"><span>Agasalhos/Conjuntos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/camisetas-roupas-manga-longa/"><span>Camisetas Manga Longa</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/acessorios-mochilas-e-bolsas/"><span>Mochilas e Bolsas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-feminino/saude-e-suplemento"><span>Suplemento Feminino</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/saude-e-suplemento"><span>Suplemento Masculino</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/"><span>...todas as categorias</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items last">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands">Mais</li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/bolsas-e-acessorios-masculinos/"><span>NOVIDADES</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bolsas-e-acessorios-masculinos/special-price"><span>PROMOÇÕES</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/vale-presente"><span>VALE PRESENTE</span></a></li>
+    <li class="menu-dropdown-item"> </li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/roupas/"><span>Roupas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/esporte-masculino/calcados/"><span>Calçados</span></a></li>                                                                                                                                  
+</ul>
+    </div>
+</div>                    </li>
+                
+                    <li>
+                        <a class="nav-row-item sel-cat-beleza" href="/beleza/" id="cat_1155">
+                            Beleza                            <b class="subnavigation-arrow i-tooltip-up-arrow nav-bar"></b>
+                        </a>
+                        <div class="subnavigation-pane subnavigation-full subnavigation-border subnavigation-beleza">
+    <div>
+        <ul class="subnavigation-block menu-dropdown-items">                                                                                                                                                                                                                      
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/beleza-feminina">Feminino</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza-feminina/acessorios"><span>Acessórios</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza-feminina/cabelos"><span>Cabelos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza-feminina/corpo-e-banho"><span>Corpo e Banho</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza-feminina/kits-e-presentes"><span>Kit's e Presentes</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza-feminina/maquiagem"><span>Maquiagem</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza-feminina/perfumes"><span>Perfumes</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza-feminina/tratamento"><span>Tratamento</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/beleza-masculina">Masculino</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza-masculina/cabelos"><span>Cabelos</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza-masculina/corpo-e-banho"><span>Corpo e Banho</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza-masculina/kits-e-presentes"><span>Kit's e Presentes</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza-masculina/perfumes"><span>Perfumes</span></a></li>  
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/marcas/beleza">Marcas</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza/alfaparf"><span>Alfaparf</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza/azzaro"><span>Azzaro</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza/calvin-klein-fragrances"><span>Calvin Klein Fragrances</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza/ferrari-fragrances"><span>Ferrari Fragrances</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza/gabriela-sabatini"><span>Gabriela Sabatini</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza/john-frieda"><span>John Frieda</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza/joico"><span>Joico</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza/keune"><span>Keune</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza/loreal-paris"><span>L'Oréal Paris</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/beleza/paco-rabanne"><span>Paco Rabanne</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/marcas"><span>Mais Marcas</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items last">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands">Mais</li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/beleza/"><span>NOVIDADES</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/beleza/"><span>PROMOÇÕES</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/vale-presente"><span>VALE PRESENTE</span></a></li>
+</ul>
+    </div>
+</div>                    </li>
+                
+                    <li>
+                        <a class="nav-row-item sel-cat-casa" href="/casa/" id="cat_758">
+                            Casa                            <b class="subnavigation-arrow i-tooltip-up-arrow nav-bar"></b>
+                        </a>
+                        <div class="subnavigation-pane subnavigation-full subnavigation-border subnavigation-casa">
+    <div>
+        <ul class="subnavigation-block menu-dropdown-items">
+  <li class="subnavigation-title menu-dropdown-item-title top-brands">Categorias</li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/casa-feminina/decoracao/"><span>Decoração</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/casa-feminina/cama/"><span>Cama</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/casa-feminina/mesa/"><span>Mesa</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/casa-feminina/banho/"><span>Banho</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/casa-feminina/utilidades-domesticas/"><span>Utilidades para Casa</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items last">
+  <li class="subnavigation-title menu-dropdown-item-title top-brands">Marcas</li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/artex"><span>Artex</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/buddemeyer"><span>Buddemeyer</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/copa-e-cia"><span>Copa E Cia</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/cortfibras"><span>Cortfibras</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/corttex"><span>Corttex</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/ethnix"><span>Ethnix</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/Kacyumara"><span>Kacyumara</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/karsten"><span>Karsten</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/marken-fassi"><span>Marken Fassi</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/laura-masri"><span>Laura Masri</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/toalhas-sao-carlos"><span>Toalhas São Carlos</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="http://www.dafiti.com.br/marcas/casa/"><span>...todas as marcas</span></a></li>                                                                                                                 
+</ul>
+    </div>
+</div>                    </li>
+                
+                    <li>
+                        <a class="nav-row-item sel-cat-premium" href="/premium/" id="cat_1927">
+                            Premium                            <b class="subnavigation-arrow i-tooltip-up-arrow nav-bar"></b>
+                        </a>
+                        <div class="subnavigation-pane subnavigation-full subnavigation-border subnavigation-premium">
+    <div>
+        <ul class="subnavigation-block menu-dropdown-items">
+  <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/marcas/premium/">Marcas</a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/carina-duek/"><span>Carina Duek</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/thelure/"><span>Thelure</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/spezzato/"><span>Spezzato</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/letage/"><span>Letage</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/tufi-duek/"><span>Tufi Duek</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/gloria-coelho/"><span>Gloria Coelho</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/rock-lily/"><span>Rock Lilly</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/ralph-lauren/"><span>Polo Ralph Lauren</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/gant/"><span>Gant</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/la-martina/"><span>La Martina</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/marcas/premium/"><span>...mais marcas</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+  <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/premium-feminino/">Feminino</a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-feminino/blusas/"><span>Blusas</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-feminino/camisas/"><span>Camisas</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-feminino/calcas-jeans/"><span>Calças Jeans</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-feminino/shorts/"><span>Shorts</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-feminino/vestidos/"><span>Vestidos</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-feminino/sapatilhas/"><span>Sapatilhas</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-feminino/sandalias/"><span>Sandálias</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-feminino/peep-toe/"><span>Peep Toe</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-feminino/bolsas/"><span>Bolsas</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-feminino/bijoux/"><span>Bijoux</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-feminino/"><span>...mais categorias</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+  <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title top-brands"><a class="item menu-dropdown-link" href="/premium-masculino/">Masculino</a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-masculino/camisetas/"><span>Camisetas</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-masculino/polos/"><span>Pólos</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-masculino/camisas/"><span>Camisas</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-masculino/casacos-e-jaquetas/"><span>Casacos e Jaquetas</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-masculino/malhas-e-sueteres/"><span>Malhas e Suéters</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-masculino/calcas-jeans/"><span>Calças Jeans</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-masculino/calcas/"><span>Calças</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-masculino/bermudas/"><span>Bermudas</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-masculino/moletons/"><span>Moletons</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-masculino/"><span>...mais categorias</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+  <li class="subnavigation-title menu-dropdown-item-title top-brands">Mais</li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/premium"><span>NOVIDADES</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/premium"><span>SALE</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/vale-presente"><span>VALE PRESENTE</span></a></li>
+  <li class="menu-dropdown-item"> </li>
+  <li class="subnavigation-title menu-dropdown-item-title top-brands">Outros</li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-infantil/?gender=menina"><span>Infantil Meninas</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-infantil/?gender=menino"><span>Infantil Meninos</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium/calcados/"><span>Sapatos</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium/bolsas-e-acessorios/"><span>Bolsas e Acessórios</span></a></li>
+  <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/premium-feminino/moda-praia/"><span>Moda Praia</span></a></li>                                                                                                                                 
+</ul>
+<style>
+.subnavigation-premium { right: 0; }
+</style>    </div>
+</div>                    </li>
+                <li>
+    <a class="nav-tabs-sprite nav-row-item sel-cat-home" href="/marcas/">
+        Marcas        <b class="subnavigation-arrow i-tooltip-up-arrow nav-bar"></b>
+    </a>
+        <div class="subnavigation-pane subnavigation-brands subnavigation-border" id="sub-brands">
+                <div>
+            <ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item-title top-brands">Femininas</li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/adidas-originals/?segment=feminino"><span>adidas originals</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/bottero/?segment=feminino"><span>Bottero</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/capodarte/?segment=feminino"><span>Capodarte</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/colcci/?segment=feminino"><span>Colcci</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/fiveblu/?segment=feminino"><span>FiveBlu</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/nike/?segment=feminino"><span>Nike</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/pink-connection/?segment=feminino"><span>Pink Connection</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/puma/?segment=feminino"><span>Puma</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/triton/?segment=feminino"><span>Triton</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/via-marte/?segment=feminino"><span>Via Marte</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/vizzano/?segment=feminino"><span>Vizzano</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/marcas/"><span>...todas as marcas</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item-title top-brands">Masculinas</li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/adidas-originals/?segment=masculino"><span>adidas originals</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/calvin-klein/?segment=masculino"><span>Calvin Klein</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/coca-cola-clothing/?segment=masculino"><span>Coca-Cola</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/converse/?segment=masculino"><span>Converse</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/democrata/?segment=masculino"><span>Democrata</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/ellus/?segment=masculino"><span>Ellus</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/ferracini/?segment=masculino"><span>Ferracini</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/fiveblu/?segment=masculino"><span>FiveBlu</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/nike/?segment=masculino"><span>Nike</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/tommy-hilfiger/?segment=masculino"><span>Tommy Hilfiger</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/triton/?segment=masculino"><span>Triton</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/marcas/"><span>...todas as marcas</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item-title top-brands">Todas as marcas</li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/marcas/?segment=feminino"><span>Feminino</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/marcas/?segment=masculino"><span>Masculino</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/marcas/?segment=infantil"><span>Infantil</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/marcas/esporte/"><span>Esporte</span></a></li>                                                                                    
+</ul>
+<style>
+#sub-brands {
+    right: 0;
+}
+</style>
+        </div>
+            </div>
+    </li>
+        </ul>
+        <ul class="nav-main nav-main-secondary nav-main-script">
+        
+<li class="news">
+    <a class="nav-row-item sel-navigation-new-products" href="/new-products/">
+        Novidades                    <b class="subnavigation-arrow i-tooltip-up-arrow nav-bar"></b>
+            </a>
+            <div class="subnavigation-pane subnavigation-news subnavigation-border">
+            <div>
+                            <ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title"><a class="item menu-dropdown-link" href="/new-products-feminino/">Feminino</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/calcados-femininos/"><span>Calçados</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/roupas-femininas/"><span>Roupas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/bolsas-e-acessorios-femininos/"><span>Bolsas e Acessórios</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/esporte-feminino/"><span>Esporte</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/beleza-feminina/"><span>Beleza</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/casa-feminina/"><span>Casa</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/premium-feminino/"><span>Premium</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title"><a class="item menu-dropdown-link" href="/new-products-masculino/">Masculino</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/calcados-masculinos/"><span>Calçados</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/roupas-masculinas/"><span>Roupas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/bolsas-e-acessorios-masculinos/"><span>Bolsas e Acessórios</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/esporte-masculino/"><span>Esporte</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/beleza-masculina/"><span>Beleza</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/casa-feminina/"><span>Casa</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/premium-masculino/"><span>Premium</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items last">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title"><a class="item menu-dropdown-link" href="/new-products-infantil/">Infantil</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/calcados-infantis/"><span>Calçados</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/roupas-infantis/"><span>Roupas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/bolsas-e-acessorios-infantis/"><span>Bolsas e Acessórios</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/esporte-infantil/"><span>Esporte</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/beleza-infantil/"><span>Beleza</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/casa-feminina/"><span>Casa</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/new-products/premium-infantil/"><span>Premium</span></a></li>                                                                     
+</ul>
+                </div>
+        </div>
+    </li>
+
+<li class="sales">
+    <a class="nav-row-item sel-navigation-sale" rel="follow" href="/special-price/">
+        Liquidação                    <b class="subnavigation-arrow i-tooltip-up-arrow nav-bar"></b>
+            </a>
+            <div class="subnavigation-pane subnavigation-sales subnavigation-border">
+            <div>
+                
+            <ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title"><a class="item menu-dropdown-link" href="/special-price?gender=feminino">Feminino</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/calcados-femininos/"><span>Calçados</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/roupas-femininas/"><span>Roupas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/bolsas-e-acessorios-femininos/"><span>Bolsas e Acessórios</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/esporte-feminino/"><span>Esporte</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/beleza-feminina/"><span>Beleza</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title"><a class="item menu-dropdown-link" href="/special-price?gender=masculino">Masculino</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/calcados-masculinos/"><span>Calçados</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/roupas-masculinas/"><span>Roupas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/bolsas-e-acessorios-masculinos/"><span>Bolsas e Acessórios</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/esporte-masculino/"><span>Esporte</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/beleza-masculina/"><span>Beleza</span></a></li>
+</ul>
+<ul class="subnavigation-block menu-dropdown-items last">
+    <li class="subnavigation-title menu-dropdown-item menu-dropdown-item-title"><a class="item menu-dropdown-link" href="/special-price/?=segment=infantil">Infantil</a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/calcados-infantis/"><span>Calçados</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/roupas-infantis/"><span>Roupas</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/bolsas-e-acessorios-infantis/"><span>Bolsas e Acessórios</span></a></li>
+    <li class="menu-dropdown-item"><a class="item menu-dropdown-link" href="/special-price/esporte-infantil/"><span>Esporte</span></a></li>                                                                    
+</ul>
+               </div>
+        </div>
+    </li>
+    </ul>
+</div>
+    </div>
+</div>        <div class="cart-page" id="full-content">
+    <div class="center">
+        <div id="messageBar">
+                <div class="success">
+                <i class="i-success"></i>
+                  Tênis Puma Axis 2 Branco adicionado ao Carrinho            </div>
+        </div>
+
+        <div style="text-align: left;">
+            
+    <div id="cart-content">
+        <div id="cart-header">
+            <h2 class="float_left cart-header-title">
+    Carrinho</h2>
+                            <a href="https://secure.dafiti.com.br/checkout/index/" class="float_right i-checkout-button sel-cart-checkout-button">
+    <span>Finalizar compra</span>
+</a>
+            
+            <a onclick="javascript:catalog.backToShop();" href="javascript:void(0);" class="first-button float_right sel-continue-shopping">
+                <span>Continuar comprando</span>
+            </a>
+
+            <div style="clear:both"></div>
+
+        </div>
+
+        <div id="cart-shopping-box">
+            <form action="https://secure.dafiti.com.br/cart/" method="post">
+                <input type="hidden" name="YII_CSRF_TOKEN" value="b70c0f0bafacab901961f077704c995334c1a053" />
+                <input type="hidden" value="1" name="cartUpdate" />
+                <table border="0" cellspacing="0" cellpadding="0" width="100%" id="shopping-cart-table">
+        <tbody style="background-color:#FFFFFF">
+        </tbody><colgroup>
+            <col width="85" />
+            <col width="206" />
+            <col width="147" />
+            <col width="150" />
+            <col width="191" />
+            <col width="94" />
+        </colgroup>
+
+                                                            <tbody><tr valign="top" class="first last odd">
+    <td class="cart-product-line column-product-image">
+        <div class="product-thumb-cart">
+            <img height="123" width="85" src="https://secure.footprint.net/dafiti/p/Puma-T%C3%AAnis-Puma-Axis-2-Branco-8952-4729531-1-feed.jpg" alt="Tênis Puma Axis 2 Branco" onerror="$(this).attr('src','https://secure.footprint.net/dafiti/images/placeholder/placeholder-small.jpg');" />
+        </div>
+        <div class="zoomed-image-cart">
+            <img alt="Tênis Puma Axis 2 Branco" src="https://secure.footprint.net/dafiti/p/Puma-T%C3%AAnis-Puma-Axis-2-Branco-8952-4729531-1-product.jpg" />
+        </div>
+    </td>
+    <td class="cart-product-line  column-product-name">
+        <div class="cart-product-brand">
+            <b>Puma</b>
+        </div>
+        <h3 style="padding:0;" class="product-name">
+                            <a href="/Tenis-Puma-Axis-2-Branco-1359274.html">Tênis Puma Axis 2 Branco</a>
+                    </h3>
+        <div class="product-sku">
+            Sku -
+            <span class="product_sku">PU493SCM25ITU-58</span>
+            <br />
+            SKU 2 -
+            <span>1460370</span>
+        </div>
+        <div class="items-options-content">
+    <div class="item-options  item-option-left">
+        <span id="icon-wishlist" class="item-options-icon i-wishlist"></span>
+        <a href="https://secure.dafiti.com.br/customer/wishlist/add/?p=PU493SCM25ITU&amp;sku=PU493SCM25ITU-58" title="Adicionar a Favoritos" class="text-wishlist-item">
+            Adicionar a Favoritos        </a>
+    </div>
+        <div class="item-options item-option-right">
+        <span id="icon-remove-item" class="item-options-icon i-trash"></span>
+        <a class="text-remove-item sel-cart-remove-item-PU493SCM25ITU-58" href="https://secure.dafiti.com.br/cart/remove/?sku=PU493SCM25ITU-58" title="Excluir item">
+            Remover        </a>
+    </div>
+    </div>
+            </td>
+
+    <td class="cart-product-line cart-product-line-qty  column-product-qty">
+        <div class="cart-color">
+    <span class="cart-color-label">Cor</span>
+    <span class="cart-color-value">Branco</span>
+</div>        <div class="cart-size">
+    <span class="cart-size-label">Tamanho</span>
+    <span class="cart-size-value">38</span>
+</div>        <span class="cart-qty-label">
+    Qnt</span>
+<span class="cart-qty-value">
+    <select title="Quantidade" id="qty_PU493SCM25ITU-58" name="qty_PU493SCM25ITU-58" class="input-text qty-cart sel-cart-quantity-PU493SCM25ITU-58" onchange="submit()">
+        <option selected="selected" value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>    </select>
+</span>    </td>
+
+    
+                                        <td class="cart-product-line  column-product-gift">
+                    <span class="gift-package-question">
+                        Embrulhar para presente?                    </span>
+                    <br />
+                    <input type="checkbox" class="add_gift_wrap" name="add_gift_wrap_telesales" />
+                    <span class="gift-wrap-icon i-gift-wrap"></span>
+                    <span class="gift_wrap_price">
+                                                    R$ 3,00                                            </span>
+                                    </td>
+                        
+    <td class="cart-product-line left-pane left-pane-bottom  column-product-price">
+                    <span class="cart-price">
+                <span class="cart-individual-price-title">
+                    Preço individual                </span>
+                <br />
+                                    <span class="price-box-old-price">
+                        R$ 199,90                    </span>
+                    <br />
+                    <span class="price sel-cart-item-total-PU493SCM25ITU-58">
+                        <strong>R$ 99,90</strong>
+                    </span>
+                                                                <div class="product-left">
+                    Restam apenas 3 produtos                </div>
+                <p class="almost-sold-out">
+                    Este produto irá esgotar caso outro usuário compre antes que você                </p>
+            </span>
+            </td>
+    <td class="cart-product-line cart-product-line-last left-pane-bottom alignLastColumn  column-product-total">
+        <span class="cart-individual-price-title">
+            Preço        </span>
+        <br />
+                    <span class="cart-price">
+                                    <span class="price sel-cart-item-total-PU493SCM25ITU-58">
+                        <strong>R$ 99,90</strong>
+                    </span>
+                    <span class="cart-price-message">
+                        50% de desconto                    </span>
+                                            </span>
+                    </td>
+</tr>
+            <tr>
+        <td valign="top" id="cepOptions" rowspan="2" colspan="4">
+
+    <span class="inputs-cep">
+        <span class="label-cep">
+            Infome o CEP para consultar o prazo de entrega:        </span>
+        <input type="text" maxlength="5" id="cep-begin" />
+        <input type="text" maxlength="3" id="cep-final" />
+        <input type="button" value="Consultar" class="show-options i-small-button" onclick="getFreightOptionsSplitedFields()" style="cursor:pointer;" />
+        <div id="cepTextLink">
+            <a href="http://www.buscacep.correios.com.br/servicos/dnec/index.do" target="_blank">Não sabe o CEP?</a>
+        </div>
+        <img src="https://secure.footprint.net/dafiti/images/ajax-loader.gif" class="spinner" />
+    </span>
+    <div colspan="2" class="freight-options-holder" id="freight-options-holder"></div>
+</td>
+        <td id="subTotalStructure" class="left-pane">
+            <span class="finishLabels total-discount-label">Você economiza</span>            <span class="finishLabels subtotal">Subtotal:</span>
+                                                        </td>
+        <td class="alignLastColumn">
+            <span class="finishValues total-discount-value">R$ 100,00</span>            <span class="finishValues subtotal sel-subtotal">R$ 99,90</span>
+                                                        </td>
+    </tr>
+    <tr class="total">
+    <td colspan="2" class="cart-total left-pane">
+        <div class="cart-total-labels">
+            <div class="cart-total-label">Total</div>
+            <span class="icon-info-container i-info"></span>
+<div style="position:absolute; z-index: 9999;">
+    <div id="installments-tip">
+        <div class="installments-tip-content">
+            Parcelamento pode ser feito em até 5x sem juros nos cartões de crédito. (Exceto American Express)        </div>
+        <span class="installments-tip-icon i-tooltip-right-arrow"></span>
+    </div>
+
+</div>
+<script>
+    $("#icon-info-cart").mouseleave(function(){
+        $('#installments-tip').fadeOut();
+    });
+</script>
+        </div>
+        <div class="cart-total-values">
+            <span class="cart-price-value sel-total">
+                R$ 99,90            </span><br />
+            <div class="cart-total-values-split">
+                5x <span class="cart-total-values-split-of">de</span>
+                    <span class="cart-price-value cart-installments">
+        R$ 19,98    </span>            </div>
+            <span class="cart-total-values-message">sem juros no cartão de crédito</span>
+        </div>
+    </td>
+</tr></tbody>
+</table>
+            </form>
+
+            <script type="text/javascript">
+                // &lt;![CDATA[
+                $("#icon-info-cart").mouseover(function(){
+                    $('#installments-tip').fadeIn();
+                });
+
+                $("#installments-tip").mouseleave(function(){
+                    $('#installments-tip').fadeOut();
+                });
+
+                $(".product-thumb-cart img").hover(function(){
+                    $(this).parent().siblings('.zoomed-image-cart').stop(true, true).fadeIn();
+                },function(){
+                    $(this).parent().siblings('.zoomed-image-cart').stop(true, true).fadeOut();
+                });
+                //]]&gt;
+            </script>
+            <br style="clear:both" />
+        </div>
+    </div>
+    <br class="cart-last-clear" style="clear:both" />
+</div>
+
+
+<div id="checkoutBottom">
+    <div class="cart-coupon-message">
+        <strong>Cupom:</strong>
+        Se você possui um cupom, ou vale trocas, utilize-o na página de pagamento.    </div>
+
+    <div class="secureBox">
+        <a target="_blank" href="https://selo.siteblindado.com.br/verificar?url=http://www.dafiti.com.br" class="iconSprite SiteblindadoLogo i-siteblindado" style="width: 1px; height: 1px;">
+        <i class="i-comodo-large"></i>
+    </a></div><a target="_blank" href="https://selo.siteblindado.com.br/verificar?url=http://www.dafiti.com.br" class="iconSprite SiteblindadoLogo i-siteblindado" style="width: 1px; height: 1px;">
+    </a><div class="cart-buttons"><a target="_blank" href="https://selo.siteblindado.com.br/verificar?url=http://www.dafiti.com.br" class="iconSprite SiteblindadoLogo i-siteblindado" style="width: 1px; height: 1px;">
+                    </a><a href="https://secure.dafiti.com.br/checkout/index/" class="float_right i-checkout-button sel-cart-checkout-button">
+    <span>Finalizar compra</span>
+</a>
+                <a onclick="javascript:catalog.backToShop();" href="javascript:void(0);" class="float_right last_button_continue sel-continue-shopping">
+            <span>Continuar comprando</span>
+        </a>
+    </div>
+    <div class="wishilist-block"></div>
+    <div style="clear:both"></div>
+</div>
+
+
+
+
+<script type="text/javascript">
+    $.fn.enterKey = function (fnc) {
+        return this.each(function () {
+            $(this).keypress(function (ev) {
+                var keycode = (ev.keyCode ? ev.keyCode : ev.which);
+                if (keycode == '13') {
+                    fnc.call(this, ev);
+                }
+            })
+        })
+    };
+
+    (function($){
+        $('.add_gift_wrap').click(function(e){
+            var $t = $(this);
+            e.preventDefault();
+            $t.attr('disabled','disabled');
+
+            var url = '';
+            var complement = '?sku=' + $(this).parents('tr').find('.product_sku').text();
+            if ($(this).is(':checked')) {
+                url = 'https://secure.dafiti.com.br/cart/addgiftwrap/';
+                complement += '&amp;free='+$(this).hasClass('telesales');
+            } else {
+                url = 'https://secure.dafiti.com.br/cart/removegiftwrap/';
+            }
+            window.location = url + complement ;
+
+        });
+        $('#cep').mask('99999-999');
+        $('#cep').enterKey(function (obj) {
+            obj.preventDefault();
+            getFreightOptions();
+        });
+    })(jQuery);
+
+    function getFreightOptions()
+    {
+        if ($('#cep').val() == "") {
+            return;
+        }
+
+        $('.inputs-cep .spinner').show();
+        $.get('/cart/GetFreightOptions?postcode=' + $('#cep').val(), function(data) {
+            $("#freight-options-holder").html(data);
+
+            $('.inputs-cep .spinner').hide();
+        });
+    }
+
+    function getFreightOptionsSplitedFields()
+    {
+        if ($('#cep-begin').val() == "") {
+            return;
+        }
+        if ($('#cep-final').val() == "") {
+            return;
+        }
+        $('.inputs-cep .spinner').show();
+        $.get('/cart/GetFreightOptions?postcode=' + $('#cep-begin').val() + "-" + $('#cep-final').val(), function(data) {
+            $("#freight-options-holder").html(data);
+
+            $('.inputs-cep .spinner').hide();
+        });
+    }
+
+    function loadValues()
+    {
+        var checked = $('input[name=frete_option]:checked');
+        checked.parent().find('.spinner').show();
+        var cep = checked.parent().find('input[name=cep]').val();
+        var query = '?postcode=' + cep + '&amp;delivery_type=' + checked.val();
+        $.get('/cart/GetTotalWithFreight' + query, function (data) {
+            $('.sel-shipping-free').html(data.freight);
+            $('.sel-total').html(data.total);
+            $('.installments-times').html(data.installmentTimes);
+            $('.installments-total').html(data.installmentValue);
+            checked.parent().find('.spinner').hide();
+        }, 'json');
+    }
+</script>
+            <div style="clear:both"></div>
+        </div>
+    </div>
+</div>
+<div style="clear:both"></div>
+<br clear="all" />
+
+<div class="clearfix" id="wrapper_footer"><!-- #wrapper_footer -->
+    <div class="footer_content clearfix footer-loaded">
+        <div class="footer_block customer_care">
+            <h2 class="footer_block_title">
+                <span class="black_arrow i-black-arrow"></span>
+                <div class="footer_headset i-care-headset"></div>
+                Central de atendimento            </h2>
+            <div class="iconSpriteB care_phone i-care-phone"></div>
+            <a rel="518,357" href="/messagetelesales/" class="openGeneralModalTelesales">
+                <div class="care_phone_container_left">
+                    <h3 class="customer_txt_phone">4003-1360</h3>
+                    <span class="customer_txt_description">Televendas</span>
+                </div>
+            </a>
+            <a rel="518,377" href="/messagetelesales/?type=hotline" class="openGeneralModalHotline">
+                <div class="care_phone_container_right">
+                    <h3 class="customer_txt_phone">11 3053<span> 7500</span></h3>
+                    <span class="customer_txt_description">Atendimento</span>
+                </div>
+            </a>
+            <div class="iconSpriteB care_chat i-care-chat"></div>
+            <div class="care_phone_container">
+                <a onclick="window.open('http://chat.dafiti.com.br/dados.php', 'Atendimento', 'menubar=no,width=400,height=500,toolbar=no,resizable=no');_gaq.push(['_trackEvent', 'ChatClick', 'ChatClick', 'ChatClick', 0, true])" href="">
+                    <h3 class="customer_txt_phone">Atendimento</h3>
+                    <span class="customer_txt_description">Online</span>
+                </a>
+            </div>
+        </div>
+        <div class="footer_block help_and_support">
+            <h2 class="footer_block_title"><span class="black_arrow i-black-arrow"></span>Ajuda e Suporte</h2>
+            <div class="help_and_support_block_links">
+                <ul class="helper_and_support_links">
+                    <li><a href="/politica-de-privacidade/" class="helper_and_support_link">Política de Privacidade</a></li>
+                    <li><a href="/politica-de-trocas-e-devolucoes/" class="helper_and_support_link">Política de Trocas e Devoluções</a></li>
+                    <li><a href="/prazo-de-entrega/" class="helper_and_support_link">Prazo de Entrega</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_block payment_methods">
+            <h2 class="payment_methods-header footer_block_title"><span class="black_arrow i-black-arrow"></span>Formas de Pagamento</h2>
+            <div class="payment_methods_block clearfix">
+                <div class="payment_method_title cc-head">Cartão de Crédito</div>
+                <div class="payment_method_title boleto-head">Boleto</div>
+                <div class="payment_method_title debit-head">Débito em Conta</div>
+                <ul class="paymet_methods_list">
+                    <li title="Mastercard" class="iconSpriteB creditcard payment_flag mastercard i-mastercard"></li>
+                    <li title="Visa" class="iconSpriteB creditcard payment_flag visa i-visa"></li>
+                    <li title="Dinners" class="iconSpriteB creditcard payment_flag dinners i-dinners"></li>
+                    <li title="Hipercard" class="iconSpriteB creditcard payment_flag hipercard i-hipercard"></li>
+                    <li title="American Express" class="iconSpriteB creditcard payment_flag amex i-amex"></li>
+                    <li title="Boleto Bancário" class="iconSpriteB bankslip payment_flag boleto i-bankslip"></li>
+                    <li title="Débito em Conta" class="iconSpriteB bankslip payment_flag itau i-itau"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div><!-- #wrapper_footer -->
+
+    <script type="text/javascript">
+        setTimeout(CJS.start, 10);
+    </script>
+
+    <script type="text/cjs">
+        $("img[data-src]").each(function(){
+            if ($(this).data("src")) {
+                $(this).attr("src", $(this).data("src"));
+            }
+        });
+    </script>
+<!-- tag for every page -->    
+
+
+<script type="text/javascript" src="https://secure.footprint.net/dafiti/js/mbox.js" sync=""></script>
+<!-- Webtrekk begin -->
+<script type="text/javascript" sync="">
+//&lt;![CDATA[
+var webtrekkProjectConfig = {
+    trackId : "531252214952830",
+    trackDomain : "zafiti01.wt-sa.net",
+    domain : "Regexp:\\.dafiti\\.com\\.br$",
+    cookieDomain : ".dafiti.com.br"
+};
+//]]&gt;
+</script>
+<script src="https://secure.footprint.net/dafiti/js/webtrekk_v3.js" type="text/javascript" sync=""></script>
+<script type="text/cjs">
+//&lt;![CDATA[
+var wt = new webtrekkV3();
+wt.contentId="Shop.PC.Cart";
+    wt.mediaCode="wmc;se;dp;em;af;fd;re;os;wt_ga01;wt_ga02;wt_ga03;wt_ga04;wt_ga05;wt_ga06;wt_ga07;wt_ga08;wt_ga09;wt_ga10;wt_ga11;wt_ga12;wt_ga13;wt_ga14;wt_ga15;wt_gk01;wt_gk02;wt_gk03;wt_gk04;wt_gk05;wt_gk06;wt_gk07;wt_gk08;wt_gk09;wt_gk10;wt_gk11;wt_gk12;wt_gk13;wt_gk14;wt_gk15";
+    wt.contentGroup={
+        1 : "Shop",
+        2 : "PC",
+        3 : "Cart"
+    };
+wt.product="PU493SCM25ITU";
+wt.productCost="99.9";
+wt.productStatus="add";
+wt.productQuantity="1";
+wt.productCategory=new Array();
+wt.productCategory={
+    1: "calcados-tenis",
+    3: "",
+    4: "Puma"
+};
+wt.customEcommerceParameter={
+1:"Puma",
+2:"Branco",
+3:"38",
+5:"",
+6:"",
+7:"",
+8:"",
+9:"NewCustomer",
+16:"",
+17:"",
+18:"",
+19:"",
+20:"",
+23:""
+};
+
+tmp_sku = ["PU493SCM25ITU-58"];
+
+wt.customEcommerceParameter["24"] = tmp_sku.toString().replace(',',';');
+
+wt.sendinfo();
+//]]&gt;
+</script>
+<noscript>
+&lt;div&gt;
+    &lt;img src="https://zafiti01.webtrekk-us.net/531252214952830/wt.pl?p=314,Shop.PC.Cart&amp;cg1=Shop&amp;cg2=PC&amp;cg3=Cart&amp;cb1=Puma&amp;cb2=&amp;cb3=&amp;cb5=&amp;cb6=&amp;cb7=&amp;cb8=&amp;cb9=&amp;st=add&amp;co=199.90&amp;ba=Tênis Puma Axis 2 Branco&amp;ca1=calcados&amp;ca2=calcados-masculinos" height="1" width="1" alt=""/&gt;
+&lt;/div&gt;
+</noscript>
+<!-- Webtrekk End -->
+
+<!-- Start of Basket Page var Code: -->
+<script type="text/javascript" sync="">
+var zx_products = [{ identifier: 'PU493SCM25ITU', amount: 99.90, currency: 'BRL', quantity: 1 }];
+</script>
+<!-- End of Basket Page var Code: -->
+
+<script type="text/cjs">
+$(document).ready(function() {
+    $(".chat").find("a").attr("onclick", function(i, val) {
+        return val + "_gaq.push(['_trackEvent', 'ChatClick', 'ChatClick', 'ChatClick', 0, true])";
+    });
+    $(".support_v2").find("a").attr("onclick", function(i, val) {
+        return val + "_gaq.push(['_trackEvent', 'ChatClick', 'ChatClick', 'ChatClick', 0, true])";
+    });
+});
+</script>
+<div id="CartPage" style="visibility: visible; display: block;"></div>
+<script type="text/javascript" sync="">
+mboxDefine('CartPage','cartpage');
+mboxUpdate('cartpage');
+</script>
+
+<style>
+.header-column-middle { width: 600px !important; }
+.header-column-right { float: none !important; position: absolute; right: 0px; }
+.usps { z-index: 1 }
+</style>
+
+<script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-3.newrelic.com","e89152f667","231797","YVdXbURSCEoDVEEMW1gddkxFRwlUTVRUF0A=",0,194,new Date().getTime(),"","","","",""]);</script>
+
+<script src="https://comerciodigitalbf.tt.omtrdc.net/m2/comerciodigitalbf/mbox/ajax?mboxHost=secure.dafiti.com.br&amp;mboxSession=1385676379516-573178&amp;mboxPage=1385676390102-791403&amp;screenHeight=1080&amp;screenWidth=1920&amp;browserWidth=1440&amp;browserHeight=692&amp;browserTimeOffset=-120&amp;colorDepth=24&amp;mboxXDomain=enabled&amp;mboxCount=1&amp;mbox=cartpage&amp;mboxId=0&amp;mboxTime=1385669190067&amp;mboxURL=https%3A%2F%2Fsecure.dafiti.com.br%2Fcart%2F&amp;mboxReferrer=http%3A%2F%2Fwww.dafiti.com.br%2FTenis-Puma-Axis-2-Branco-1359274.html&amp;mboxVersion=40"></script><script type="text/javascript" src="https://js-agent.newrelic.com/nr-100.js"></script><script type="text/javascript" src="https://beacon-3.newrelic.com/1/e89152f667?a=231797&amp;be=3562&amp;qt=0&amp;ap=194&amp;dc=145&amp;fe=1344&amp;to=YVdXbURSCEoDVEEMW1gddkxFRwlUTVRUF0A%3D&amp;v=42&amp;jsonp=NREUM.setToken&amp;perf=%7B%22timing%22%3A%7B%22of%22%3A1385676386362%2C%20%22n%22%3A0%2C%20%22dl%22%3A2157%2C%20%22di%22%3A3706%2C%20%22ds%22%3A3713%2C%20%22de%22%3A3740%2C%20%22dc%22%3A4904%2C%20%22l%22%3A4904%2C%20%22le%22%3A4917%2C%20%22f%22%3A1919%2C%20%22dn%22%3A1919%2C%20%22dne%22%3A1919%2C%20%22c%22%3A1919%2C%20%22ce%22%3A1919%2C%20%22rq%22%3A1932%2C%20%22rp%22%3A2155%2C%20%22rpe%22%3A2169%7D%2C%20%22navigation%22%3A%7B%7D%7D"></script><script type="text/javascript">var tmppagecategory='undefined'.replace(/,/g,"/");dataLayer.push({asapcodecategory:tmppagecategory,event:"variablesReady"});</script>
+
+<script type="text/javascript" src="https://static.criteo.net/js/ld/ld.js"></script><script type="text/javascript">(function(){try{var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"==document.location.protocol?"https://ssl.vizury.com":"http://www.vizury.com")+"/analyze/pixel.php?account_id\x3dVIZVRM453";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b);a.onload=function(){pixel.parse()};a.onreadystatechange=function(){"complete"!=a.readyState&amp;&amp;"loaded"!=a.readyState||pixel.parse()}}catch(c){}})();</script><script type="text/javascript">var cartTotal=0,pricelist='99.90'.split("|");for(i=0;i&lt;pricelist.length;i++)cartTotal+=pricelist[i];var skuList='PU493SCM25ITU'.replace("|",",");
+(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"==document.location.protocol?"https://":"http://")+"vu.adschoom.com/trafic/retar.php?type\x3dPANIER\x26boutique\x3ddafiti\x26transaction_amount\x3d"+cartTotal+"\x26data\x3d"+skuList;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script>
+
+<script type="text/javascript" src="//media.richrelevance.com/rrserver/js/1.0/p13n.js"></script><script type="text/javascript">var tmp=[];var skulist=google_tag_manager["GTM-DVWD"].macro(9).split("|");var pricelist=google_tag_manager["GTM-DVWD"].macro(11).split("|");var qtylist=google_tag_manager["GTM-DVWD"].macro(10).split("|");for(i=0;i&lt;skulist.length;i++)if(skulist[i]!="")tmp.push({identifier:skulist[i],amount:pricelist[i],currency:"BRL",quantity:qtylist[i]});var basket={products:tmp};if("undefined"!="undefined")var customer={identifier:"undefined"};</script>
+<script type="text/javascript" src="//us-sonar.sociomantic.com/js/2010-07-01/adpan/dafiti-br"></script><div style="display: none; visibility: hidden;"><script src="https://ads.globo.com/RealMedia/ads/adstream_jx.ads/retargeting/dafiti/carrinho@x96%21x96" language="JavaScript" type="text/javascript"></script><!--<A HREF="https://ads.globo.com/RealMedia/ads/click_lx.ads/retargeting/dafiti/carrinho/L27/1784706985/x96/globocom/retarget_prod_001_dafiti_130101/capping.gif/794d3344416c4b58766c304141697079" target="_top"><IMG SRC="https://ads.globo.com/RealMedia/ads/Creatives/globocom/retarget_prod_001_dafiti_130101/capping.gif"></A><script language=JavaScript src="https://ads.globo.com/RealMedia/ads/adstream.cap?1784706985&c=retgDafiti&dv=10&e=30d&s=1"></script>
+-->
+<!-- cookie -->
+<iframe height="0" frameborder="0" width="0" scrolling="no" src="http://ads.globo.com/RealMedia/ads/Creatives/globocom/Cookie_RTG_NAO_APAGAR/setCookie.htm?name=retgDafiti&amp;v=10&amp;d=30" bordercolor="#000000" vspace="0" hspace="0" marginheight="0" marginwidth="0">&lt;!-- fim cookie --&gt;</iframe>
+</div><script type="text/javascript">$(document).ready(function(){$("#search_form").submit(function(){_gaq.push(["_trackEvent","Search","SearchButton",$("#search-input").val()])});$("#search-autocomplete").on("click","a",function(){var a=$(this).attr("href").match(/q[0-9]?=([^&amp;]*)/);_gaq.push(["_trackEvent","Search","SearchSuggest",a[1]])})});</script><script type="text/javascript">$("#search_form").submit(function(){"undefined"!==typeof wt&amp;&amp;wt.sendinfo({contentId:"shop.pc.search_button"})});</script><script type="text/javascript">triggit_advertiser="MI";triggit_segments=["dafiticart","dafiti"];(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=document.location.protocol+"//dgy6rx5roq02d.cloudfront.net/triggit-analytics.min.js";document.getElementsByTagName("head")[0].appendChild(a)})();</script><iframe height="1" frameborder="0" width="1" scrolling="No" vspace="0" hspace="0" marginheight="0" marginwidth="0" src="https://www.mainadv.com/retargeting/live/DirectRtg.aspx?Key=DR&amp;visitorIp=Dafiti_BR&amp;pageType=basket&amp;t=4"></iframe>
+	<script type="text/javascript">var lpMTagConfig={lpServer:"server.iad.liveperson.net",lpNumber:"69331643",lpProtocol:0==document.location.toString().indexOf("https:")?"https":"http"};
+function lpAddMonitorTag(a){if("undefined"==typeof a||"object"==typeof a)a=lpMTagConfig.lpMTagSrc?lpMTagConfig.lpMTagSrc:"/hcp/html/mTag.js";0!=a.indexOf("http")?a=lpMTagConfig.lpProtocol+"://"+lpMTagConfig.lpServer+a+"?site\x3d"+lpMTagConfig.lpNumber:0&gt;a.indexOf("site\x3d")&amp;&amp;(a=0&gt;a.indexOf("?")?a+"?":a+"\x26",a=a+"site\x3d"+lpMTagConfig.lpNumber);var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","iso-8859-1");b.setAttribute("src",a);document.getElementsByTagName("head").item(0).appendChild(b)}
+window.attachEvent?window.attachEvent("onload",lpAddMonitorTag):window.addEventListener("load",lpAddMonitorTag,!1);</script>
+
+
+<script type="text/javascript">jQuery(document).ready(function(){jQuery.getScript(("https:"==document.location.protocol?"https://clicktalecdn.sslcs.cdngc.net/":"http://cdn.clicktale.net/")+"www08/ptc/a2cfdb48-e7f5-40c8-861c-105faef40f5c.js")});</script>
+
+
+
+
+ <script type="text/javascript">(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https:"==document.location.protocol?"https://secure.footprint.net/dafiti/js/clicktale.js":"http://static.dafity.com.br/js/clicktale.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script>
+
+
+
+<img height="1" width="1" src="https://a.triggit.com/px?from_js=1&amp;hn=secure.dafiti.com.br&amp;vp=1440x692&amp;lg=en-US&amp;cs=UTF-8&amp;ti=Carrinho%20de%20Compras&amp;ur=https%3A%2F%2Fsecure.dafiti.com.br%2Fcart%2F&amp;pl=Linux%20x86_64&amp;cb=0.02650538303610439&amp;rtv=dafiticart,dafiti&amp;u=MI" style="display: none;" /><script src="https://a.triggit.com/ps?callback=trggt_jp&amp;cb=0.20926166887398323"></script>
+<script type="text/javascript">var skulist=google_tag_manager["GTM-DVWD"].macro(9).split("|"),qtylist=google_tag_manager["GTM-DVWD"].macro(10).split("|"),pricelist=google_tag_manager["GTM-DVWD"].macro(11).split("|"),allitems=[];for(i=0;i&lt;skulist.length;i++){var item={};item.id=skulist[i];item.price=pricelist[i];item.quantity=qtylist[i];allitems[i]=item}window.criteo_q=window.criteo_q||[];window.criteo_q.push({event:"setAccount",account:2625},{event:"setCustomerId",id:"undefined"},{event:"setSiteType",type:"d"},{event:"viewBasket",item:allitems});</script><div id="criteo-tags-div" style="display: none;"><script async="true" type="text/javascript" src="https://sslwidget.criteo.com/event?a=2625&amp;v=2.0.0&amp;p0=e%3Dexd%26ci%3Dundefined&amp;p1=e%3Dexd%26site_type%3Dd&amp;p2=e%3Dvb%26p%3D%255Bi%25253DPU493SCM25ITU%252526pr%25253D99.90%252526q%25253D1%255D&amp;p3=e%3Ddis"></script><iframe height="0" width="0" style="display: none;" src="https://dis.ny.us.criteo.com/dis/dis.aspx?p=2625&amp;cb=76262536090&amp;ref=http%3A%2F%2Fwww.dafiti.com.br%2FTenis-Puma-Axis-2-Branco-1359274.html&amp;sc_r=1920x1080&amp;sc_d=24&amp;site_type=d"></iframe></div>
+<script type="text/javascript" charset="utf-8">var R3_COMMON=new r3_common;R3_COMMON.setApiKey("b58946ba6c4fc057");R3_COMMON.setBaseUrl(window.location.protocol+"//recs.richrelevance.com/rrserver/");R3_COMMON.setClickthruServer(window.location.protocol+"//"+window.location.host);customer=null==$.cookie("customer")?$.cookie("PHPSESSID"):$.cookie("customer");R3_COMMON.setUserId(customer);R3_COMMON.setSessionId($.cookie("PHPSESSID"));var R3_CART=new r3_cart,skus=google_tag_manager["GTM-DVWD"].macro(9).split("|"),idsProduct=[];
+for(i=0;i&lt;skus.length;i++){var url=$(".cart-product-line .product-name a").eq(i).attr("href");idsProduct[i]=/[^.]+/.exec(url)[0].substr(url.lastIndexOf("-")).replace("-","");R3_CART.addItemId(idsProduct[i])}rr_flush_onload();r3();</script><script type="text/javascript" async="" src="https://us-sonar.sociomantic.com/js/2010-07-01/action/basket?aid=dafiti-br&amp;fpc=6515387534952170916&amp;po=%7B%22products%22%3A%5B%7B%22identifier%22%3A%22PU493SCM25ITU%22%2C%22amount%22%3A99.9%2C%22currency%22%3A%22BRL%22%2C%22quantity%22%3A1%7D%5D%7D&amp;rid=r07147695990374952"></script><img height="1" width="1" src="https://www.facebook.com/fr/u.php?p=185501061579159&amp;m=25e7bc7f-6f10-4c7f-9de0-223ef17a91e1&amp;t=2592000&amp;cb=mh35h4" style="display: none;" /><img height="1" width="1" src="https://pixel.rubiconproject.com/tap.php?v=4554&amp;nid=1430&amp;put=25e7bc7f-6f10-4c7f-9de0-223ef17a91e1&amp;expires=180&amp;cb=vj9fbr" style="display: none;" /></body></html>

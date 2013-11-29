@@ -1,0 +1,8 @@
+headers:
+  generator: "<%= Slideshow.generator %>"
+  author: Fernando Dias
+  email: fernando.dias@dafiti.com.br
+  company: Dafiti
+  title: Pro em Bdd + Behat
+  subtitle: sqn :(
+  footer: Dafiti Dev - Dojo

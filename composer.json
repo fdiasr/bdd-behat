@@ -1,0 +1,26 @@
+{
+    "name": "dafiti/bdd",
+    "description": "Bdd Tutorial for Dafiti",
+    "authors": [
+        {
+            "name": "Fernando Dias",
+            "email": "fernando.dias@dafiti.com.br"
+        }
+    ],
+
+    "require": {
+        "knplabs/github-api": "*",
+        "behat/behat": "2.4.*@stable",
+        "behat/mink": "1.4@stable",
+        "behat/mink-extension": "*",
+        "behat/mink-goutte-driver": "*",
+        "behat/mink-selenium2-driver": "*"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-0": { "Dafiti\\": "app" }
+    }
+}

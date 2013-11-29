@@ -1,0 +1,7 @@
+# behat.yml
+default:
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url: http://dafiti.com.br
+            goutte: ~
+            selenium2: ~
