@@ -45,7 +45,7 @@ necessidades e definições da área de negócio, corretamente nas definições 
 
 * Automatização dos exemplos, a fim de garantir o funcionamento do entregável
 
-* Compreensão da área de negócio em relação ao que está será desenvolvido e entregue
+* Compreensão da área de negócio em relação ao que está sendo desenvolvido e entregue
 
 
 # BDD - Definições
@@ -64,8 +64,9 @@ Essas definições de requisitos são utilizadas no <strong>framework</strong> p
 
 - Inspirado no Cucumber - Ruby
 
-- Com o behat você descreve suas features (estorias), com os cenarios,
-  e cria métodos para definir os Passos a serem executados para isso.
+- Com o behat você descreve suas features, utilizando as estorias criadas pela
+  área de negócio ou de projetos, define os cenarios que podem ocorrer para a
+  feature e cria métodos para execução das etapas do fluxo.
 
 
 # BDD / Behat - Pensando nas features
@@ -84,19 +85,20 @@ A especificação da feature, pode ser descrita partindo de respostas de negóci
 
 - Feature é descrita com:
     - Beneficio da feature (what)
-    - Quem vai executar processo e ser beneficiado (who)
-    - O que é necessário para o fluxo da feature sem realizado (how)
+    - Quem vai executar o processo e ser beneficiado (who)
+    - O que é necessário para o fluxo da feature ser realizado (how)
 
 # BDD / Behat - Especificando cenários
 
-Cada feature possui situações e decisões que resultarão em fluxos no processo.
+Cada feature possui fluxos e resultados diferentes em seu processo
 
-Cada situação e fluxo desses deve ser definido em um cenário para a feature
+Para cada situação dessas, é definido um cenário para a feature
 
-- Formato Given/When/Then para descrição dos cenários
-    - Given: pré-condições para o cenário
-    - When: eventos que devem ocorrer para execução do cenário
-    - Then: resultados da execução do cenário
+É utilizado o formato Given / When / Then para descrição dos cenários
+
+- <strong>Given</strong>: pré-condições para o cenário
+- <strong>When</strong>: eventos que devem ocorrer para execução do cenário
+- <strong>Then</strong>: resultados da execução do cenário
 
 
 # Vamos a prática ...
@@ -106,32 +108,28 @@ Colocando a mão na massa...
 
 # Uso básico do Behat
 
-Vamos realizar um teste simples com uma lib do knplabs para conectar a api do github:
+Vamos realizar um teste simples com uma lib do <strong>knplabs</strong> para conectar a api do github:
 
-<% code do %>
-# composer.json
-{
-    "name": "dafiti/bdd",
-    "description": "Bdd Tutorial for Dafiti",
-    "require": {
-        "knplabs/github-api": "*",
-        "behat/behat": "2.4.*@stable",
-    },
-    "minimum-stability": "dev",
-    "config": {
-        "bin-dir": "bin/"
-    }ma
-}
-<% end %>
+    # composer.json
+    {
+        "name": "dafiti/bdd",
+        "description": "Bdd Tutorial for Dafiti",
+        "require": {
+            "knplabs/github-api": "*",
+            "behat/behat": "2.4.*@stable",
+        },
+        "minimum-stability": "dev",
+        "config": {
+            "bin-dir": "bin/"
+        }
+    }
 
 
 # Iniciando o Behat
 
-<% code do %>
     # command line
     composer install
     behat --init
-<% end %>
 
 Após instalar o composer e iniciar o behat, é adicionado à pasta do projeto a seguinte estrutura:
 
@@ -146,7 +144,8 @@ Agora podemos criar nossas features e seus cenários:
 
 # Behat - Feature
 
-Vamos descrever a nossa feature:
+Vamos descrever uma feature que ira usar essa lib para consultar dados
+referentes a repositórios no github:
 
     Feature: Get repositories from github
         In order to check code on github
@@ -156,13 +155,16 @@ Vamos descrever a nossa feature:
 
 # Behat - Cenário
 
-Agora, vamos escrever um primeiro cenário:
+Agora, vamos escrever nosso primeiro cenário, buscando os repositórios da
+conta DafitSprint:
 
     Scenario: Get DafitiSprint repositories info
         Given I get app to connect to Github
         When I call info for public repositories from "DafitiSprint"
         Then I get "1" repositorie(s)
         And repository name is "dojos"
+
+Cada linha de definição no cenário exige que exista um método para processá-lo.
 
 
 # Behat - Implementando as etapas
@@ -186,7 +188,7 @@ Recomenda-se PHPUnit.
 
 O Behat por si só não atua no protocolo http ou no browser, para isso existe o Mink.
 
-- Mink - Extensão para camada de abstração de browser/http
+- Mink - Extensão para abstração da camada http/browser
     - Remove diferenças entre apis dos browsers e emuladores
     - Fácil controle do browser - navegação, sessão, etc...
     - Drives
@@ -199,52 +201,43 @@ O Behat por si só não atua no protocolo http ou no browser, para isso existe o
 
 Precimos adicionar as dependencias do Mink:
 
-<% code do %>
-# composer.json
-    "require": {
-        "behat/mink": "1.4@stable",
-        "behat/mink-extension": "*",
-        "behat/mink-goutte-driver": "*",
-        "behat/mink-selenium2-driver": "*"
-    },
-<% end %>
+    # composer.json
+        "require": {
+            "behat/mink": "1.4@stable",
+            "behat/mink-extension": "*",
+            "behat/mink-goutte-driver": "*",
+            "behat/mink-selenium2-driver": "*"
+        },
+
 
 Vamos criar uma nova feature para os novos testes:
 
-    \features\bootstrap\bdd-wiki.feature
+    \features\bootstrap\dafiti.feature
 
 # FeatureContext extendendo Mink
 
 Também vamos extender a classe MinkContext a FeatureContext
 
-<% code do %>
-use Behat\MinkExtension\Context\MinkContext;
+    use Behat\MinkExtension\Context\MinkContext;
 
-    class FeatureContext extends MinkContext
-    {
-    }
-<% end %>
+        class FeatureContext extends MinkContext {}
 
 Devemos criar o arquivo behat.yml, para definir o autoload das extensões do mink e dos drivers:
 
-<% code do %>
-# behat.yml
-default:
-    extensions:
-        Behat\MinkExtension\Extension:
-            base_url: http://dafiti.com.br
-            goutte: ~
-            selenium2: ~
-<% end %>
+    # behat.yml
+    default:
+        extensions:
+            Behat\MinkExtension\Extension:
+                base_url: http://dafiti.com.br
+                goutte: ~
+                selenium2: ~
 
 
 # Feature e Cenários para o Mink
 
 No terminal, podemos visualizar a lista de definições pré definidas do Mink
 
-<% code do %>
-behat -dl
-<% end %>
+    behat -dl
 
 
 # Mink com Goutee
@@ -255,19 +248,16 @@ Sem Javascript, Ajax, UI.
 
 Feature e cenário para aplicação usando mink + goutee:
 
-<% code do %>
-Feature: Navigation on Dafiti
-    In order to ensure dafiti's site is working
-    As a visitor
-    I want navigate properly
+    Feature: Navigation on Dafiti
+        In order to ensure dafiti s site is working
+        As a visitor
+        I want navigate properly
 
-Scenario: Find a baby shoe
-    Given I am on "/"
-    When I follow "Infantil"
-    And I follow "Baby"
-    And I log content page
-    Then I should see "Sandália Klin George Branca"
-<% end %>
+    Scenario: Find a baby shoe
+        Given I am on "/"
+        When I follow "Infantil"
+        And I follow "Baby"
+        Then I should see "Sandália Klin George Branca"
 
 
 # Mink com Selenium
@@ -278,33 +268,27 @@ Com o selenium é possivel testar e utilizar Javascript e todo o conceito de Ric
 
 Download Selenium
 
-<% code do %>
-http://selenium.googlecode.com/files/selenium-server-standalone-2.37.0.jar
-<% end %>
+    http://selenium.googlecode.com/files/selenium-server-standalone-2.37.0.jar
 
 Inicie o server.
 
-<% code do %>
-java -jar selenium-server-standalone-2.37.0.jar
-<% end %>
+    java -jar selenium-server-standalone-2.37.0.jar
 
 
 # Mink com Selenium - Feature e cenários
 
 Feature e cenário para aplicação usando mink + selenium:
 
-<% code do %>
-Feature: Navigation on Dafiti
-    In order to ensure dafiti's site navigation is working
-    As a visitor
-    I want to go to map site and go to sections
+    Feature: Navigation on Dafiti
+        In order to ensure dafiti s site navigation is working
+        As a visitor
+        I want to go to map site and go to sections
 
-@javascript
-Scenario: View sitemap
-    Given I am on "/"
-    When I follow "Mapa do site"
-    Then I should see "Calçados Teens"
-<% end %>
+    @javascript
+    Scenario: View sitemap
+        Given I am on "/"
+        When I follow "Mapa do site"
+        Then I should see "Calçados Teens"
 
 
 # Behat - Além ...
@@ -330,21 +314,19 @@ Com o arquivo yml é possivel configurar:
 
 Podemos criar novas definições no seu arquivo de Context.
 
-<% code do %>
-Feature: Cart on Dafiti
-    In order to ensure dafiti's site access to cart is working
-    As a visitor
-    I want to choose products add and view cart
+    Feature: Cart on Dafiti
+        In order to ensure dafiti s site access to cart is working
+        As a visitor
+        I want to choose products add and view cart
 
-@javascript
-Scenario: Find a man's shoe and add to cart
-    Given I am on "/calcados"
-    When I follow xpath "//*[@data-src='http://static.dafity.com.br/p/Puma-T%C3%AAnis-Puma-Axis-2-Branco-8952-4729531-sprite.jpg']"
-    And I follow xpath "//*[@id='PU493SCM25ITU-58']"
-    And I press "Adicionar ao Carrinho"
-    And I log content page
-    Then I should see "Tênis Puma Axis 2 Branco"
-<% end %>
+    @javascript
+    Scenario: Find a man s shoe and add to cart
+        Given I am on "/calcados"
+        When I follow xpath "//*[@data-src='http://static.dafity.com.br/p/Puma-T%C3%AAnis-Puma-Axis-2-Branco-8952-4729531-sprite.jpg']"
+        And I follow xpath "//*[@id='PU493SCM25ITU-58']"
+        And I press "Adicionar ao Carrinho"
+        Then I should see "Tênis Puma Axis 2 Branco"
+
 
 # Behat - Novas Definições no context
 
@@ -352,27 +334,68 @@ Para atender a nova definição devemos criar um novo método no Context para su
 
 Usando, neste caso, a API do Mink para essa manipulação.
 
-<% code do %>
-/**
- * @When /^I follow xpath "([^"]*)"$/
- */
-public function iClickOnElementWithXPath($xpath)
-{
-    $element = $this->getSession()->getPage()->find('xpath',
-        $this->getSession()->getSelectorsHandler()
-                           ->selectorToXpath('xpath', $xpath));
-    if (null === $element) {
-        throw new InvalidArgumentException('Could not find XPath");
+    /**
+     * @When /^I follow xpath "([^"]*)"$/
+     */
+    public function iClickOnElementWithXPath($xpath)
+    {
+        $element = $this->getSession()->getPage()->find('xpath',
+            $this->getSession()->getSelectorsHandler()
+                               ->selectorToXpath('xpath', $xpath));
+        if (null === $element) {
+            throw new InvalidArgumentException('Could not find XPath');
+        }
+        $element->click();
     }
-    $element->click();
-}
-<% end %>
 
 
 # Background scenario
 
+Tipo de cenário utilizado para adicionar ao contexto diversas etapas pré-definidas
+para todos os cenários da feature.
+
+Executado antes do cenário a ser processado.
+
+    Background:
+        Given I am on ...
+        And fill in ... with ...
+
 
 # Scenario Outline
+
+Este tipo de cenário, possibilita o fluxo ser executado diversas vezes
+utilizando placeholders.
+
+    Scenario Outline:
+        Given I am on "/"
+        When I follow "Mapa do site"
+        Then I should see <link>
+
+    Examples:
+        |link               |
+        |Calçados Masculinos|
+        |Calçados Femininos |
+        |Calçados Infantis  |
+
+
+# Tables
+
+Tabelas são usadas para multiplos dados no fluxo do cenário:
+
+    Scenario: Creating Users
+        Given the following users:
+          | name          | followers |
+          | everzet       | 147       |
+          | avalanche123  | 142       |
+
+Os dados são enviados para o método relacionado através do objeto TableNode:
+
+    public function pushUsers(TableNode $usersTable)
+    {
+        $users = array();
+        foreach ($usersTable->getHash() as $userHash) {}
+    }
+
 
 # Hooks
 
@@ -383,52 +406,73 @@ Possuem <strong>Before</strong> e <strong>After</strong> em :
 
 Esses processos também podem ser <strong>@taggeados</strong>.
 
-<% code do %>
+    /**
+     * @BeforeSuite @database,@orm
+     */
 
-/**
- * @BeforeScenario @database,@orm
- */
+    /**
+     * @AfterFeature
+     */
 
-<% end %>
-
-# tables
-
-<% code do %>
-  Scenario: Creating Users
-    Given the following users:
-      | name          | followers |
-      | everzet       | 147       |
-      | avalanche123  | 142       |
-      | kriswallsmith | 274       |
-      | fabpot        | 962       |
-<% end %>
+    /**
+     * @BeforeScenario
+     */
 
 
 # pyString
 
+Objeto usado para armazenar retornos com multiplas linhas.
 
-# relatorio de resultado
+    Scenario Outline:
+        Given I am on "/"
+        When I follow "..."
+        Then I should get:
+            """
+            Line 1 of returned content
+            Line 2 of returned content
+            ...
+
+            """
+
+
+# Relatorio de Resultado
+
+É possível executar o behat gerando um output em HTML:
+
+    behat --format html --out report.html
+
+Também podemos usar o formato junit, para uso, por exemplo, no jenkins:
+
+    behat --format junit --out behat.xml
+
+# Evidências
+
+O driver Selenium2Driver possibilita screenshot da tela que se esta navegando.
+
+Definindo uma ação no fluxo:
+
+    # feature file
+    Then I take a screeenshot
+
+Pode-se criar um método na feature para executa-la:
+
+    # FeatureContext.php
+    public function getScreenshot()
+    {
+        $screenshot = $this->getSession()->getDriver()->getScreenshot();
+        $date     = new DateTime;
+        $filename = $date->format('Ymd-His') . '.png';
+        file_put_contents('/../screenshot/'. $filename, $screenshot);
+    }
+
 
 
 # Referências
 
-Behat docs, presentation and videos by Konstantin Kudryashov
+Behat documentação, apresentação e video por Konstantin Kudryashov.
 
 [Docs](http://docs.behat.org)
 
 [Slideshow](https://speakerdeck.com/everzet/behat-by-example)
 
 [Presentation](http://www.youtube.com/watch?v=QnPmbQbsTV0)
-
-<style>
-
-.slide p, .slide li {
-    padding: 10px 0;
-    font-size: 30px !important;
-}
-
-pre  {
-    font-size: 20px;
-}
-
-</style>

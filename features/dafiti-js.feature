@@ -17,3 +17,4 @@ Scenario: Find a man's shoe and add to cart
     And I press "Adicionar ao Carrinho"
     And I log content page
     Then I should see "Tênis Puma Axis 2 Branco"
+    And I should take a screenshot

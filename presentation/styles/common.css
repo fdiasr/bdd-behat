@@ -106,6 +106,7 @@ pre select {
 }
 pre b {
   font-weight: normal;
+  font-size: 20px;
   color: #c61800;
   text-shadow: #c61800 0 0 1px;
 }
@@ -976,4 +977,9 @@ div#wrapping {
 }
 .transitions div.right {
   margin-left: 780px;
+}
+
+.slide p, .slide li {
+    padding: 10px 0;
+    font-size: 30px !important;
 }

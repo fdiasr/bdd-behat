@@ -1,6 +1,9 @@
 <?php
 
 use Behat\MinkExtension\Context\MinkContext;
+use Behat\Mink\Driver\Selenium2Driver;
+
+use Dafiti\Dojo\Github;
 
 require_once 'PHPUnit/Autoload.php';
 require_once 'PHPUnit/Framework/Assert/Functions.php';
@@ -25,7 +28,7 @@ class FeatureContext extends MinkContext
      */
     public function iGetAppToConnectToGithub()
     {
-        $this->app = new Dafiti\Dojo\Github;
+        $this->app = new Github;
     }
 
     /**
@@ -62,6 +65,21 @@ class FeatureContext extends MinkContext
     {
         $content = $this->getSession()->getPage()->getContent();
         file_put_contents(__DIR__ . '/../log/debug.log', $content);
+    }
+
+    /**
+     * @Then /^I should take a screenshot$/
+     */
+    public function getScreenshot()
+    {
+        if ( !$this->getSession()->getDriver() instanceof Selenium2Driver ) {
+            throw new OutOfBoundsException('Driver dont take screenshot');
+        }
+        $screenshot = $this->getSession()->getDriver()->getScreenshot();
+
+        $date     = new DateTime;
+        $filename = $date->format('Ymd-His') . '.png';
+        file_put_contents(__DIR__ . '/../screenshot/'. $filename, $screenshot);
     }
 
     /**
