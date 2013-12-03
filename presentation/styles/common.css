@@ -983,3 +983,7 @@ div#wrapping {
     padding: 10px 0;
     font-size: 30px !important;
 }
+
+pre  {
+    font-size: 20px;
+}
